@@ -14,7 +14,7 @@ Specific scanning:
 
 If you want to scan only for specific URL(for example, http://testphp.vulnweb.com/listproducts.php?cat=2), you can simply try the following:
 
-     html_inj.py -d "google-gruyere.appspot.com"  -url 'https://google-gruyere.appspot.com/618330416163754376309156278800266650779/snippets.gtl?uid=brie'
+     python3.6 html_inj.py -d "google-gruyere.appspot.com"  -url 'https://google-gruyere.appspot.com/618330416163754376309156278800266650779/snippets.gtl?uid=brie'
 
 
 If you want to scan list of urls file ,you can simply try the following:
