@@ -1,0 +1,4 @@
+[       Fri Feb  5 17:11:07 2021        ] :  Scanning Started for : testphp.vulnweb.com
+[       Fri Feb  5 17:11:07 2021        ] :  Payload Used : <h1><a href='https://www.google.com/'> Vulnerable Link </a></h1>
+[       Fri Feb  5 17:11:07 2021        ] :  Params : {'cat': "<h1><a href='https://www.google.com/'> Vulnerable Link </a></h1>"}
+[       Fri Feb  5 17:11:07 2021        ] :  HTML Injection Found : http://testphp.vulnweb.com/listproducts.php?cat=2cat=%3Ch1%3E%3Ca+href%3D%27https%3A%2F%2Fwww.google.com%2F%27%3E+Vulnerable+Link+%3C%2Fa%3E%3C%2Fh1%3E
