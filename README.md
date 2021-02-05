@@ -10,6 +10,14 @@ Git Clone:
      cd htmlinjection
 
 
+Arguments:
+
+    -url   = Plase enter valid URL example: http://testphp.vulnweb.com/listproducts.php?cat=2
+    -ul    = Plase provide URL List File, filename.txt
+    -d     = Domain Name example: testphp.vulnweb.com
+
+
+
 Specific scanning:
 
 If you want to scan only for specific URL(for example, http://testphp.vulnweb.com/listproducts.php?cat=2), you can simply try the following:
