@@ -6,7 +6,7 @@ Simple Html Injection Scanner for Web Applications with the intent of automatic 
 
 Git Clone:
   
-     wget https://github.com/Gaurav-Jadhav/htmlinjection.git
+     git clone https://github.com/Gaurav-Jadhav/htmlinjection.git
      cd htmlinjection
 
 
