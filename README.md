@@ -1,4 +1,6 @@
 # HTML Injection Scanner
+Disclaimer:
+This project was created for educational purposes and should not be used in environments without legal autjorization.
 
 Description: 
 
