@@ -7,7 +7,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
     - name: Checkmarx Action
-      uses: checkmarx-ts/checkmarx-github-action@<version>
+      uses: checkmarx-ts/checkmarx-github-action@9.2
       with:
         cxServer: http://ilrnacxmng01/cxwebclient
         cxUsername: TestUser
