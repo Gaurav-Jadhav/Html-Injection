@@ -1,0 +1,15 @@
+name: Checkmarx SAST Scan
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+    - name: Checkmarx Action
+      uses: checkmarx-ts/checkmarx-github-action@<version>
+      with:
+        cxServer: http://ilrnacxmng01/cxwebclient
+        cxUsername: TestUser
+        cxPassword: TestUser123$
+        cxTeam: \CxServer\SP\SI_O\Test_Amdocs_IS
